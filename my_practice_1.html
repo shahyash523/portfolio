@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Yash Shah Personal Blog">
+	<link href="https://fonts.googleapis.com/css?family=Laila:400,500" rel="stylesheet">
+	<link rel="stylesheet" href="css/my_practice_1.css">
+	<title>Yash Shah</title>
+</head>
+<body>
+	<header>
+	<a href=""><h1>Yash Shah</h1></a>
+	<nav>
+		<ul>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#contact">Contact US</a></li>
+		</ul>
+	</nav>
+	</header>
+	<aside>
+		<h3>List of Posts</h3>
+		<ul>
+			<li><a href="#post-1">Post-1</a></li>
+			<li><a href="#post-2">Post-2</a></li>
+			<li><a href="#post-3">Post-3</a></li>
+		</ul>
+	</aside>
+	<div id="container">
+		<img src="images/logo.png" alt="Yash Logo" height="512" width="512" title="Yash Shah">
+		<h2 class="title">Blog</h2>
+		<article id="post-1">
+			<section class="post-head">
+				<h2>Post-1</h2>
+				<small><em>Posted on <time>Feb 15,2019</time>.</em></small>
+			</section>
+			<section class="post-body">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</section>
+			<section class="post-foot">
+				<small><em>Post by <span class="author">Yash Shah</span></em></small>
+			</section>
+		</article>
+		<article id="post-2">
+			<section class="post-head">
+				<h2>Post-2</h2>
+				<small><em>Posted on <time>Feb 15,2019</time>.</em></small>
+			</section>
+			<section class="post-body">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</section>
+			<section class="post-foot">
+				<small><em>Post by <span class="author">Yash Shah</span></em></small>
+			</section>
+		</article>
+		<article id="post-3">
+			<section class="post-head">
+				<h2>Post-3</h2>
+				<small><em>Posted on <time>Feb 15,2019</time>.</em></small>
+			</section>
+			<section class="post-body">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</section>
+			<section class="post-foot">
+				<small><em>Post by <span class="author">Yash Shah</span></em></small>
+			</section>
+		</article>
+	</div>
+	<div id="portfolio">
+		<h2 class="title">Portfolio</h2>
+		<section>
+			<h3>Project-1</h3>
+			<h3>Project-2</h3>
+			<h3>Project-3</h3>
+		</section>
+		<section>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales imperdiet erat, a interdum dolor. Donec tempus quam ut maximus faucibus.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales imperdiet erat, a interdum dolor. Donec tempus quam ut maximus faucibus.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales imperdiet erat, a interdum dolor. Donec tempus quam ut maximus faucibus.</p>
+		</section>
+	<h3 id="skills" class="title">Skills</h3>
+	<div id="table">
+		<table>
+			<tr>
+				<th>Day to Day Confort</th>
+				<th>Have experience with</th>
+			</tr>
+			<tr>
+				<td>html</td>
+				<td>PHP</td>
+			</tr>
+			<tr>
+				<td>css</td>
+				<td>mySQL</td>
+			</tr>
+			<tr>
+				<td>java</td>
+				<td>ajax</td>
+			</tr>
+			<tr>
+				<td>wordpress</td>
+			</tr>
+		</table>
+	</div>
+	<form id="contact">
+		<fieldset>
+			<legend>Contact US</legend>
+			<label for="name">Name</label><br>
+			<input type="text" id="name" placeholder="Your name"><br>
+			<label for="email">Email</label><br>
+			<input type="email" id="email" placeholder="Your@mail.com"><br>
+			<label for="pass">Password</label><br>
+			<input type="password" id="pass" placeholder="Your password"><br>
+			<label>Type of Phone:</label><br>
+			<input type="radio" class="radio">Android
+			<input type="radio" class="radio">iOS
+			<input type="radio" class="radio">Windows <br>
+			<label>Type of PC</label><br>
+			<input type="checkbox" class="pc">PC <br>
+			<input type="checkbox" class="pc">Laptop <br>
+			<input type="checkbox" class="pc">Macbook <br>
+			<label for="msg">Send a Message:</label><br>
+			<textarea name="Message" id="msg" cols="30" rows="5"></textarea><br>
+			<input type="submit" value="Send">
+			<input type="reset" value="Clear">
+		</fieldset>
+	</form>
+	</div>
+	<footer>
+		<small>&copy; 2019-Yash Shah.</small>
+	</footer>
+</body>
+</html>

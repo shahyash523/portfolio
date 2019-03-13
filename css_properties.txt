@@ -1,0 +1,45 @@
+.class
+#id
+text-transform---------------------uppercase,lowercase,capitalize
+font-style-------------------------italic,underline,strikethrough
+font-weight------------------------100-700,normal,bold,bolder
+font-family------------------------serif,sans-serif,monospace
+font-size--------------------------px
+position---------------------------absolute,relative,fixed
+display----------------------------block,inline,inline-block
+color------------------------------#code,color name,rgb,rgba(a=opacity),hsla
+background-------------------------#color url('') top left repeat,no-repeat,repeat-x,repeat-y
+a b c------------------------------for childs
+a,b,c------------------------------for siblings
+a[type=""]-------------------------for forms
+a:link-----------------------------for links
+a:visited
+a:hover
+a:active
+text-decoration--------------------none,
+border-----------------------------1px solid red
+text-align-------------------------center,left,right
+width------------------------------%,px,em
+height-----------------------------%,px,em
+margin-----------------------------px
+padding----------------------------px
+*----------------------------------for reset
+float------------------------------left,right
+clear------------------------------both,left,right
+box-sizing-------------------------border-box
+border-radius----------------------px
+border-bottom-left-radius
+border-bottom-right-radius
+border-top-left-radius
+border-top-right-radius
+linear-gradient(to left/right,color1,color2)
+radial-gradient(color1,color2)
+text-shadow------------------------1px 2px 5px black(horizontal shadow,vertical shadow,blur,color)
+box-shadow-------------------------5px 5px 3px 2px black(horizontal,vertical,blur,spread,color)
+column-count
+column-gap
+column-rule-width
+column-rule-style------------------solid,dashed,dotted
+column-rule-color
+animation--------------------------@keyframe name{ from{properties to change from} to{properties to change to value} }
+transition

@@ -1,0 +1,38 @@
+html
+head
+title
+body
+h1-h6
+br
+hr
+p
+em
+strong
+ul------------------------------------------type="circle,square"
+li
+ol------------------------------------------type="1,a,A,I",reversed
+img-----------------------------------------src="",width,height,alt,title
+table
+tr
+th
+td
+a-------------------------------------------href="https://"
+form----------------------------------------action
+fieldset
+legend
+input---------------------------------------type="text,password,email,radio,checkbox,submit,reset",value(only for submit and reset),class(for radio and 												checkbox),placeholder,id,required
+label---------------------------------------for(id of input)
+select--------------------------------------name,id
+option
+textarea------------------------------------cols,rows
+&__;
+div-----------------------------------------id,class
+span----------------------------------------id,class
+header
+footer
+nav
+article
+section
+aside
+time----------------------------------------datetime
+input---------------------------------------type="search,url,number,range,date,month,week,time,datetime,datetime-local,color",(min,max,step)(only for 													number),(min,max,value)(only for range)	
