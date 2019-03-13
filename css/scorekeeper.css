@@ -1,0 +1,69 @@
+
+body{
+	background-image: url("../images/desert.jpg");
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+	color: #ffa200;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	min-width: 65%;
+	width: 65%;
+	margin: 50px auto;
+}
+
+header h1{
+	text-shadow: 0px 3px 10px black;
+	min-width: 65%;
+	width: 100%;	
+	box-sizing: content-box;
+}
+
+div{
+	background-color: rgba(34,34,34,0.84);
+	padding: 30px 10px;
+	/*margin: auto 70px;*/
+	min-width: 65%; 
+	box-shadow: 0px 5px 20px black;
+}
+
+input{
+	display: block;
+	border-radius: 10px;
+	width: 30%;
+	padding: 3px;
+	box-sizing: border-box;
+	resize: none;	
+	font-size: 12px;
+	margin: 5px auto;
+}
+
+p{
+	font-family: monospace;
+	font-style: italic;
+}
+
+#p1s,#p2s{
+	font-size: 50px;
+}
+
+button{
+	padding: 5px 20px;
+	margin: 10px 5px;
+	background: linear-gradient(#E8470C, orange);
+	border-radius: 10px;
+	border: 1px solid #555;
+}
+
+button:hover{
+	padding: 5px 20px;
+	margin: 0 5px;
+	background: linear-gradient(orange ,#E8470C);
+	border-radius: 10px;
+	border: 1px solid #333;
+	box-shadow: 0 5px 10px black;
+}
+
+.winner{
+	color: green;
+}
