@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Invoice</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="main">
+		<table id="header">
+			
+			<tr>
+				<td id="logo">
+					<img src="logo.png" alt="Live Tour Logo">
+				</td>
+				<td id="title">
+					INVOICE
+				</td>
+				<td id="company">
+					<p><span id="companyid">LT-190406-I196</span></p>
+					<p>Invoice Date: <span id="date">April 06, 2019</span></p>
+					<p>PAN Number: <span class="company">AABCW3798Y</span></p>
+					<p>GST No. : <span class="company">32AABCW3798Y-1ZP</span></p>
+					<p>State: <span class="company">Maharashtra 27</span></p>
+				</td>
+			</tr>
+			
+			<tr><td colspan="3"><hr></td></tr>
+
+			<tr>
+				<td id="customer">Sold To:- <span id="name">Mr. Ronny Patel</span></td>
+			</tr>
+			
+		</table>
+
+		<table id="bill">
+			<thead>
+				<tr>
+					<th>SNo</th>
+					<th>Description</th>
+					<th>Duration</th>
+					<th>Total INR</th>
+				</tr>
+			</thead>
+			<tbody id="package">
+				<tr>
+					<td>1</td>
+					<td><span class="selectedpackage">2 Nights and 3 Days kerala pkg</span></td>
+					<td>01-05-2019 to 03-05-2019</td>
+					<td style="text-align: right;"><span class="amount">13222</span></td>
+				</tr>
+				<tr>
+					<td style="height: 10px;padding: 1px;"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td class="gst">SGST @0 %</td>
+					<td style="text-align: right;">0</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td class="gst">CGST @0 %</td>
+					<td style="text-align: right;">0</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td class="total" colspan="2">THIRTEEN THOUSAND TWO HUNDRED AND TWENTY-TWO</td>
+					<td class="total" style="text-align: right;">TOTAL</td>
+					<td style="text-align: right;"><span class="amount">13,222</span></td>
+				</tr>
+			</tfoot>
+		</table>
+			
+		<table id="inquiry">
+			<tr>
+				<td>
+					<p>DIRECT ALL INQUIRIES TO:</p>
+					<p>(+91) 9995805414</p>
+					<p>E-mail : sales@worldemart.com</p>
+					<p>&nbsp;</p>
+					<p>THANK YOU FOR YOUR BUSINESS!</p>
+					<p>&nbsp;</p>
+					<p>Daisy / Accountant</p>
+					<p>For Worldemart Pvt Ltd.</p>
+				</td>
+				<td id="pay">
+					<p>Payment mode : Cash / Cheque / DD</p>
+				</td>
+			</tr>
+		</table>
+
+		<table id="terms">
+			<tr>
+				<td>payment terms example</td>
+			</tr>
+		</table>
+		
+	</div>
+	<table id="last">
+			<tr>
+				<td>0</td>
+			</tr>
+	</table>
+
+</body>
+</html>
